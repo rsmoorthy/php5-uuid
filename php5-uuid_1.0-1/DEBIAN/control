@@ -1,0 +1,19 @@
+Package: php5-uuid
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Moorthy
+Depends: libc6 (>= 2.2.5)
+Section: php
+Priority: optional
+Description: uuid module for php5
+ UUIDs are 128 bit numbers which are intended to have a high likelihood
+ of uniqueness over space and time and are computationally difficult
+ to guess. They are globally unique identifiers which can be locally
+ generated without contacting a global registration authority. UUIDs
+ are intended as unique identifiers for both mass tagging objects
+ with an extremely short lifetime and to reliably identifying very
+ persistent objects across a network.
+  .
+ This package provides a module for OSSP uuid functions support in PHP
+ scripts.
+
